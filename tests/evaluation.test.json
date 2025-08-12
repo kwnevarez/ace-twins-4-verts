@@ -1,0 +1,47 @@
+{
+  "eval_set_id": "weather_agent_test_set",
+  "name": "",
+  "description": "This is an eval set that is used for unit testing the weather agent.",
+  "eval_cases": [
+    {
+      "eval_id": "eval_case_id",
+      "conversation": [
+        {
+          "invocation_id": "b7982664-0ab6-47cc-ab13-326656afdf75",
+          "user_content": {
+            "parts": [
+              {
+                "text": "what is the weather in new york?"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "The weather in New York is sunny with a temperature of 25 degrees Celsius (77 degrees Fahrenheit)."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "args": {
+                  "city": "new york"
+                },
+                "name": "get_weather"
+              }
+            ],
+            "intermediate_responses": []
+          }
+        }
+      ],
+      "session_input": {
+        "app_name": "weather_time_agent",
+        "user_id": "test_user",
+        "state": {}
+      }
+    }
+  ]
+}
