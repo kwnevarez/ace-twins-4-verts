@@ -1,20 +1,20 @@
-# Google Agent Development Kit (ADK)
+# Introduction
 
-This project is primarily about building agents using the Google Agent Development Kit (ADK).
+This project is primarily about experimenting with bulding different kinds of agents.
 
-## Documentation
+## Google Agent Development Kit (ADK)
 
 The official documentation for the ADK can be found here:
 
 [https://google.github.io/adk-docs/](https://google.github.io/adk-docs/)
 
-## Sample Code
+### ADK Sample Code
 
 A collection of sample agents built with the ADK is available on GitHub. This repository provides examples for both Python and Java.
 
 [https://github.com/google/adk-samples](https://github.com/google/adk-samples)
 
-## ADK for Python
+### ADK for Python
 
 For Python developers, the `adk-python` library provides a code-first toolkit for building, evaluating, and deploying AI agents. It is a flexible and modular framework that is optimized for the Google ecosystem but is designed to be model-agnostic.
 
