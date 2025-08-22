@@ -12,7 +12,7 @@ This is a Python script that runs on macOS to track the user's active applicatio
 *   **Output**: The logger generates a new CSV file each day containing the activity data.
 *   **Dependencies**: `pyobjc-core`, `pyobjc-framework-quartz`
 
-### Multi-Tool Agent (`multi_tool_agent`)
+### Multi-Tool Agent (`agents/multi_tool_agent`)
 
 This is an agent built with the Google Agent Development Kit (ADK).
 
@@ -29,13 +29,26 @@ This is an agent built with the Google Agent Development Kit (ADK).
 
 ### Prerequisites
 
-You will need Python 1 and the following Python packages:
+You will need Python 3.11+ and the following Python packages:
 
 *   `google-adk`
 
 It is recommended to create a `requirements.txt` file and install the dependencies using `pip install -r requirements.txt`.
 
-### Usage
-    ```
-1.  **Run the Multi-Tool Agent**:
-    *(Instructions on how to run the agent will be added here.)*
+### Running Tests
+
+To run the tests for the agent, use the following command:
+
+```bash
+adk eval agents/multi_tool_agent tests/evaluation.test.json
+```
+
+### Interacting with the Agent
+
+To interact with the agent, you can use the `adk web` command:
+
+```bash
+adk web agents/multi_tool_agent
+```
+
+This will start a web server with a user interface where you can chat with the agent.
