@@ -136,3 +136,4 @@ dmypy.json
 cython_debug/
 
 .adk
+the_lab/credentials.json
