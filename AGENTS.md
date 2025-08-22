@@ -4,6 +4,7 @@ This project is primarily about experimenting with bulding different kinds of ag
 
 ## Google Agent Development Kit (ADK)
 
+The Google Agent Development Kit (ADK) is a comprehensive toolkit designed to streamline the creation, evaluation, and deployment of AI agents. It offers a flexible and modular framework that supports developers in building sophisticated agents capable of interacting with various tools and APIs. The ADK is optimized for the Google ecosystem but remains model-agnostic, allowing for integration with a wide range of language models.
 The official documentation for the ADK can be found here:
 
 [https://google.github.io/adk-docs/](https://google.github.io/adk-docs/)
