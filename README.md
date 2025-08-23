@@ -29,19 +29,20 @@ This is an agent built with the Google Agent Development Kit (ADK).
 
 ### Prerequisites
 
-You will need Python 3.11+ and the following Python packages:
-
-*   `google-adk`
-
-It is recommended to create a `requirements.txt` file and install the dependencies using `pip install -r requirements.txt`.
+'''bash
+source .venv/bin/activate
+pip install -r requirements.txt
+'''
 
 ### Running Tests
 
 To run the tests for the agent, use the following command:
 
 ```bash
-adk eval agents/multi_tool_agent tests/evaluation.test.json
+PYTHONPATH=./agents adk eval agents/multi_tool_agent tests/evaluation.test.json
 ```
+
+The python path makes the tools module visible. 
 
 ### Interacting with the Agent
 

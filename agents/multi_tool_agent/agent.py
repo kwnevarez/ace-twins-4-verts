@@ -1,5 +1,5 @@
 from google.adk.agents import Agent
-from .tools import get_current_time, get_weather
+from tools import get_current_time, get_weather
 
 root_agent = Agent(
     name="weather_time_agent",
