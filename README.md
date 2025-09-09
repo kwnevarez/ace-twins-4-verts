@@ -49,7 +49,7 @@ The python path makes the tools module visible.
 To interact with the agent, you can use the `adk web` command:
 
 ```bash
-adk web agents/multi_tool_agent
+PYTHONPATH=. adk web agents
 ```
 
 This will start a web server with a user interface where you can chat with the agent.
