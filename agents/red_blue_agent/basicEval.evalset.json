@@ -1,0 +1,256 @@
+{
+  "eval_set_id": "basicEval",
+  "name": "basicEval",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "case839a30",
+      "conversation": [
+        {
+          "invocation_id": "e-74fcbdf0-aedd-4388-9bdc-236e95d83f5e",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Hello lets get started"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CrAFAR_MhbaCNjHLqrpdHJi-m5UCZJ31GkOvSfC4YRVKFksqxIEx9LRCfSN3TxseHWxVhEaasVIqJqIqU2DKourgY_eIfmJ1Q-ilOlWBKggyyxj-irPClqlwYnGyfAs_Jfv6ICIP9S8nVivVu0EWs4UhpM9x14o4j0bRfCh1F_D3ftu9xGMMP-yUCrpIioOBNWR7mfNmeYtsx2MxE_hmkz_lAaCCPx92XahakvYccQ0mUpSTsT7YGT7ZZheQMK9ohOhgGWFVlzvxbfwYFot9QaPCzadTuqRAGYuzbRcVuo9IYJeuhRV2FQ__9Q35FUo9OWMkMVY6t9igi11ZBJp6FDNTH41JtwG_5RLs_gl-7-f70KVvhQauDzrka38TTX4p40bI6vg2tuHaY6X4V6D31cIg3VYL7-DkIuNbi6zyrwy_j0uuk-P_c4gB6xHRds1kjpZnTmiweiFYruzX5DDFTKa_KIK9UK4kl2fbYt-kjhZSGL9SyZ5YV_z_s1wHggFqBEV93WEKeP-iYhmptJQQtRWM9tAhfIlxuhQKWdDkkvCUbgK-l_CtJ-ZHrOjOHkeKnpG2bvWNu4YA1gZfXntUjAYmO1rS6GuUyWvYVVly-vQqk57K0d-B8scnsb43gW6a2FZ42MYgqx-KgUGA4yQYLSs7pXBaBbytaop3kH6-ziIixlaK0vXJID7s3ExVpHI-68kXLClsyy5TrozjmUXjjAJ6erNc4mE6UCiCRtMdi29mv9ZmQl4bDBotEPSWK2FtS-S948G6_bqQDuh4-8trVcivP2poQFgf2UNEZovFF_aQ8mSgdlqTqA7gzdeyUOrvzVntEG1bg_Ta2U_gTZhb5IUr7E2lI5T4SJ_3fSX2bGxezhH2uKzXFEqcTE_mf1JNOrWW_YnGgzTDSOAVL8HqXPQdNg==",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "What red object do you see?"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-64fbb039-1473-4985-a3ab-b6c158d76838",
+                "args": {},
+                "name": "get_selection_tool"
+              },
+              {
+                "id": "adk-872cc282-7bfd-4a88-ae4b-0f86079790df",
+                "args": {
+                  "agent_name": "red_object_finder"
+                },
+                "name": "transfer_to_agent"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1757543575.127164
+        },
+        {
+          "invocation_id": "e-8b28bd62-92a9-442d-a7ba-7d32533b91d3",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "I need some suggestions"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CroCAR_Mhba-YwKAe8f7Qd9WM9Eh-qFzqkaPXrf6k2SzTk2HN95c4oVhCkEm_xLowQJsO-_qAbo9qQaudz6fIHd_j6cxqiJNEpObj3dR9z8huXQs9554stB8KypROyExax8aGOq4f1NBhNM728WqZ6F_-YSzVz28DxCvYy-_Fq0Lc-N-pV9Xt3xDq6uwJsqDvhnzqvwRXoN1oXyJifBOeLTC2UiLshQxvSfzQeYdtLdnSbbF9lFZehZamCuqGSfdCDCXVsmmr_CGRJVMOmSBGuJ0xf0mjcl50YzsdFyLYbw_jAkYmrNt1-Shxx7a0zHtmSrDuSKKKSTqE-kOsKVva5R4ulnHcIZc8e42j4aSehg8bJm-v5i9SxeaM0wMBwubCKbicjgSQI3C3xTegpb9WQ05AsjpArwSTwthLD8=",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "Here are some red objects:\n\n*   Apple\n*   Fire truck\n*   Rose\n*   Stop sign\n*   Cherry\n\nWhich red object would you like to select? Or do you have another in mind?"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1757543600.008993
+        },
+        {
+          "invocation_id": "e-de5a6c48-4655-447c-8cc3-d20c08909815",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "a red rose sounds nice"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": "CqEBAR_MhbaGtCAQ0n1tVD5f6FVj06t6NpVHva9WzEsSkuEaeGkwIxjNITvKPH_cT5-kT_sBfRrf6edZQo0KNoMfT-EbKSsATZBuQEvu80OAiZT1bPN0Y2550woAZdbqEbfcx5Qtc5pE01vaYaJSgxa4YXTuxjwcUwDbWnZdbOucnk1q1CpFp0vN27y3U1Dedc9eMCfXqrfXRg85yFD2aQELvhg=",
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "I need some suggestions for blue objects. How about:\n\n*   Sky\n*   Ocean\n*   Blueberry\n*   Jeans\n*   Sapphire\n\nWhich blue object would you like to select? Or do you have another in mind?"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-5273a620-d711-4a68-8f78-2237accbb339",
+                "args": {
+                  "color": "red",
+                  "object_type": "rose"
+                },
+                "name": "capture_selection_tool"
+              },
+              {
+                "id": "adk-04e1acbe-bf3c-44ec-b815-2165aaac6980",
+                "args": {
+                  "agent_name": "orchestrator_agent"
+                },
+                "name": "transfer_to_agent"
+              },
+              {
+                "id": "adk-1ba4d801-0fee-4871-844b-892f9546aa4e",
+                "args": {},
+                "name": "get_selection_tool"
+              },
+              {
+                "id": "adk-df83c4d1-310f-4669-9990-e448226c91a8",
+                "args": {
+                  "agent_name": "blue_object_finder"
+                },
+                "name": "transfer_to_agent"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1757543611.399985
+        },
+        {
+          "invocation_id": "e-123a404b-8cb5-4377-b251-fdbabb979aa1",
+          "user_content": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "blue jeans"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "video_metadata": null,
+                "thought": null,
+                "inline_data": null,
+                "file_data": null,
+                "thought_signature": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "function_call": null,
+                "function_response": null,
+                "text": "I need some suggestions for blue objects. How about:\n\n*   Sky\n*   Ocean\n*   Blueberry\n*   Jeans\n*   Sapphire\n\nWhich blue object would you like to select? Or do you have another in mind?"
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-207f410b-d04b-48e5-87bb-f020a6448269",
+                "args": {
+                  "object_type": "jeans",
+                  "color": "blue"
+                },
+                "name": "capture_selection_tool"
+              },
+              {
+                "id": "adk-e76aaeef-33e8-4e14-a990-94a13ee73cb3",
+                "args": {
+                  "agent_name": "orchestrator_agent"
+                },
+                "name": "transfer_to_agent"
+              },
+              {
+                "id": "adk-b3a82e68-3e26-44be-838c-90d94e8916b1",
+                "args": {},
+                "name": "get_selection_tool"
+              },
+              {
+                "id": "adk-f95446b2-ee6f-4da8-89e4-7c24e7b8f00f",
+                "args": {
+                  "agent_name": "blue_object_finder"
+                },
+                "name": "transfer_to_agent"
+              }
+            ],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1757543636.436525
+        }
+      ],
+      "session_input": {
+        "app_name": "smart_goals_agent",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1757543712.5560699
+    }
+  ],
+  "creation_timestamp": 1757543026.6534975
+}

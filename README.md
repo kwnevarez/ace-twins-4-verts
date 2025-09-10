@@ -30,7 +30,7 @@ This is an agent built with the Google Agent Development Kit (ADK).
 ### Prerequisites
 
 '''bash
-source .venv/bin/activate
+source venv/bin/activate
 pip install -r requirements.txt
 '''
 

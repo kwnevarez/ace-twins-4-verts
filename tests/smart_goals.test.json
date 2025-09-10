@@ -1,0 +1,12 @@
+{
+  "test_cases": [
+    {
+      "prompt": "I want to learn to play the guitar.",
+      "golden_response": "I will learn to play the guitar by practicing for 30 minutes every day, and I will be able to play my first full song within 3 months."
+    },
+    {
+      "prompt": "I want to get in shape.",
+      "golden_response": "I will get in shape by going to the gym 3 times a week and eating a healthy diet. I will lose 10 pounds in the next 2 months."
+    }
+  ]
+}
